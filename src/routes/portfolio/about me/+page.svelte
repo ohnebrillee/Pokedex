@@ -2,7 +2,7 @@
 </script>
 <div class="bg-violet-950">
 <div class="mx-auto  w-full flex flex-col items-center ">
-    <p class="text-8xl text-shadow-lg/30 text-white font-semi bold py-5 ">About Me</p>
+    <p class="text-8xl text-shadow-lg/30 text-white font-semi text-shadow-lg/30 bold py-5 ">About Me</p>
 
 
             <div class="hover-3d">
@@ -20,9 +20,10 @@
         <div></div>
         <div></div>
 </div>
+<center>
 <ul class="list bg-base-100 rounded-box shadow-md">
   
-  <li class="list-row">
+  <li class="list-row px-150">
     <div>
       <div class="text-xl">Basic informations:</div>
 
@@ -32,7 +33,7 @@
    
   </li>
   
-  <li class="list-row">
+  <li class="list-row px-65">
        <div>
       <div class="text-xl">My passion:</div>
 
@@ -46,10 +47,7 @@
   </li>
   
   <li class="list-row">
-    
-    <div>
-      <div class="text-xl">My work environment:</div>
-    </div>
+    <h1 class="text-xl"> My Environment</h1>
     <div class="carousel w-200">
   <div id="slide1" class="carousel-item relative w-full">
     <img
@@ -92,5 +90,6 @@
   </li>
   
 </ul>
+</center>
 </div>
 </div>

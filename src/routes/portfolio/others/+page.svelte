@@ -3,30 +3,23 @@
 </script>
 
 <div class="">
-<ul class="list bg-base-200 rounded-box m-35 mx-150 shadow-md">
-  
-  <li class="text-4xl underline">Contacts:</li>
-  
-  <li class="list-row">
-    
+  <div class="hero bg-base-200 min-h-screen">
+  <div class="hero-content flex-col lg:flex-row">
+    <img
+      src="https://southparkshop.de/cdn/shop/files/die-cut-magnets-white-4x4-front-6745d3e963ca0_1024x1024.jpg?v=1732629575"
+      class="max-w-sm rounded-lg shadow-2xl"
+    />
     <div>
-      <div>email: amelie.duch@icloud.com</div>
-     
-  
-  </li>
-  
-  <li class="list-row">
-    
-    <div>
-      <div>tel:+49...</div>
-   
-  </li>
-  
-  <li class="list-row">
-    <div>
-      <div>github page: <a href="https://github.com/ohnebrillee"class="no-underline hover:underline"> https://github.com/ohnebrillee</a></div>
-    
-  </li>
-  
-</ul>
+      <h1 class="text-5xl font-bold">Contact Me!</h1>
+      <p class="py-6">
+        email: amelie.duch@icloud.com<br>
+        tel:+49...
+      </p>
+       <div>github page: <a href="https://github.com/ohnebrillee"class="no-underline hover:underline"> https://github.com/ohnebrillee</a></div>
+    </div>
+  </div>
 </div>
+</div>
+
+     
+    

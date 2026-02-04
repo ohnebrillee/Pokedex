@@ -20,6 +20,8 @@
           <ul class="p-2">
             <li><a>Submenu 1</a></li>
             <li><a>Submenu 2</a></li>
+            <li><a>Submenu 3</a></li>
+            <li><a>Submenu 4</a></li>
           </ul>
         </li>
         <li><a>Item 3</a></li>
@@ -36,6 +38,8 @@
           <ul class="p-2 bg-base-100 w-40 z-1">
             <li><a href="/">html/Pokedex</a></li>
             <li><a href="/portfolio/about me/communication designs">The Southpark Mystery</a></li>
+             <li><a href="/portfolio/recipe">Fettuccine Alfredo Recipe</a></li>
+             <li><a href="/portfolio/restaurant">Japanese Restaurant</a></li>
           </ul>
         </details>
       </li>
