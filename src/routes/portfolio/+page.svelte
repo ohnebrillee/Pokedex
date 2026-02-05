@@ -3,7 +3,6 @@
   class="hero min-h-screen"
   style="background-image: url(https://assets.mairdumont.de/images/original/0/s/2z/9i/photo-47168262.jpg);"
 >
-
   <div class="hero-overlay"></div>
   <div class="hero-content text-neutral-content text-center">
     <div class="max-w-md">

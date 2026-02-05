@@ -36,10 +36,10 @@
         <details>
           <summary>Projects</summary>
           <ul class="p-2 bg-base-100 w-40 z-1">
-            <li><a href="/">html/Pokedex</a></li>
+            <li><a href="/">Pokedex</a></li>
             <li><a href="/portfolio/about me/communication designs">The Southpark Mystery</a></li>
              <li><a href="/portfolio/recipe">Fettuccine Alfredo Recipe</a></li>
-             <li><a href="/portfolio/restaurant">Japanese Restaurant</a></li>
+             <li><a href="/portfolio/cats">cats</a></li>
           </ul>
         </details>
       </li>
