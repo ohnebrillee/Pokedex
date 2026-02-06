@@ -12,8 +12,24 @@
         document.body.appendChild( renderer.domElement );
 
         const geometry = new THREE.BoxGeometry( 1, 1, 1 );
-        const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+            const material = new THREE.MeshPhongMaterial({
+      color: 0xFFFFFF,    // red (can also use a CSS color string here)
+      flatShading: true,
+    });
         const cube = new THREE.Mesh( geometry, material );
+                const color = 0xAAAAAA;
+    const intensity = 3;
+    const light = new THREE.DirectionalLight(color, intensity);
+    light.position.set(0, 10, 0);
+    light.target.position.set(5, 0, 0);
+    scene.add(light);
+    scene.add(light.target);
+
+    const light2 = new THREE.DirectionalLight(color, intensity);
+    light2.position.set(0, -10, 5);
+    light2.target.position.set(5, 0, 0);
+    scene.add(light2);
+    scene.add(light2.target);
         scene.add( cube );
 
         camera.position.z = 5;
